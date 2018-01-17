@@ -1,0 +1,86 @@
+body {
+  background-color: #999999; }
+  body .container {
+    margin: 10vh auto 10vh; }
+    body .container a:link {
+      color: #ffffff;
+      text-decoration: none; }
+    body .container a:visited {
+      color: #ffffff; }
+    body .container a:hover {
+      color: #999999;
+      background-color: #ffffff;
+      text-decoration: none; }
+    body .container a:active {
+      color: #ffffff;
+      background-color: #999999; }
+
+.button {
+  border: 1px solid white;
+  width: 234px;
+  height: 86px;
+  border-radius: 50px; }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  margin: 100px auto 0; }
+  .container .show {
+    width: 90vw;
+    min-height: 500px;
+    background-color: #ffffff;
+    margin: 0 auto 0;
+    padding: 100px 50px;
+    position: relative;
+    -webkit-perspective: 1000;
+    perspective: 1000; }
+    .container .show .plate {
+      height: 50px;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      position: absolute;
+      left: 40vw;
+      top: 350px;
+      -webkit-transform: rotateY(30deg);
+      /* 更改這裡 */
+      transform: rotateY(30deg); } 
+
+      .container .show .plate .pic {
+        width: 200px;
+        position: absolute;
+        bottom: 0;
+        border-radius: 10px;
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        -webkit-transition: -webkit-transform ease-in-out 1s;
+        transition: -webkit-transform ease-in-out 1s;
+        -o-transition: transform ease-in-out 1s;
+        transition: transform ease-in-out 1s;
+        transition: transform ease-in-out 1s, -webkit-transform ease-in-out 1s; }
+      .container .show .plate .pic1 {
+        -webkit-transform: rotateY(0deg) translateZ(350px);
+        transform: rotateY(0deg) translateZ(350px); }
+      .container .show .plate .pic2 {
+        -webkit-transform: rotateY(40deg) translateZ(350px);
+        transform: rotateY(40deg) translateZ(350px); }
+      .container .show .plate .pic3 {
+        -webkit-transform: rotateY(80deg) translateZ(350px);
+        transform: rotateY(80deg) translateZ(350px); }
+      .container .show .plate .pic4 {
+        -webkit-transform: rotateY(120deg) translateZ(350px);
+        transform: rotateY(120deg) translateZ(350px); }
+      .container .show .plate .pic5 {
+        -webkit-transform: rotateY(160deg) translateZ(350px);
+        transform: rotateY(160deg) translateZ(350px); }
+      .container .show .plate .pic6 {
+        -webkit-transform: rotateY(200deg) translateZ(350px);
+        transform: rotateY(200deg) translateZ(350px); }
+      .container .show .plate .pic7 {
+        -webkit-transform: rotateY(240deg) translateZ(350px);
+        transform: rotateY(240deg) translateZ(350px); }
+      .container .show .plate .pic8 {
+        -webkit-transform: rotateY(280deg) translateZ(350px);
+        transform: rotateY(280deg) translateZ(350px); }
+      .container .show .plate .pic9 {
+        -webkit-transform: rotateY(320deg) translateZ(350px);
+        transform: rotateY(320deg) translateZ(350px); }

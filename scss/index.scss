@@ -1,0 +1,60 @@
+@import "global";
+@import "button";
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin: 100px auto 0;
+    .show{
+        width: 90vw;
+        min-height: 500px;
+        background-color: #ffffff;
+        margin: 0 auto 0;
+        padding: 100px 50px;
+        position: relative;
+        perspective: 1000;
+        .plate{
+            height: 50px;
+            transform-style: preserve-3d;
+            position: absolute;
+            left: 40vw;
+            top: 350px;
+            transform: rotateY(0deg);
+            .pic{
+                width:200px;
+                position: absolute;
+                bottom: 0;
+                border-radius: 10px;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+                transition: transform ease-in-out 1s;
+            }
+            .pic1{
+                transform: rotateY(0deg) translateZ(350px);
+            }
+            .pic2{
+                transform: rotateY(40deg) translateZ(350px);
+            }
+            .pic3{
+                transform: rotateY(80deg) translateZ(350px);
+            }
+            .pic4{
+                transform: rotateY(120deg) translateZ(350px);
+            }
+            .pic5{
+                transform: rotateY(160deg) translateZ(350px);
+            }
+            .pic6{
+                transform: rotateY(200deg) translateZ(350px);
+            }
+            .pic7{
+                transform: rotateY(240deg) translateZ(350px);
+            }
+            .pic8{
+                transform: rotateY(280deg) translateZ(350px);
+            }
+            .pic9{
+                transform: rotateY(320deg) translateZ(350px);
+            }
+        }
+    }
+}
